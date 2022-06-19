@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;400&display=swap'); */
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#354259 !important;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+
+.header{
+    background-color: #C2DED1 !important;
+    color:rgb(243, 75, 103) !important;
+    padding: 5px !important;
+    text-align: center !important;
+    padding:0.5rem !important;
+    
+}
+
+ /* this is for the card which houses our classname with num display and textdisplay */
+.card{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    background-color: white !important;
+    padding: 45px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 15px;
+    position:relative;
+    margin-bottom: 40px;
+}
+
+/* for the button */
+.close{
+    position:absolute;
+    top:20%;
+    left:90%;
+    background-color:  white !important;
+    border-radius: 15px;
+    border: none;
+    
+}
+/* this is for the num display */
+.num-display{
+    z-index: 1;
+    background-color: rgb(243, 75, 103) !important;
+    padding: 5px;
+    border-radius: 50px;
+    height:40px;
+    width:40px;
+    position: absolute;
+    top:-6%;
+    left:-2%;
+    color:white !important;
+    border: 1px solid white !important;
+    text-align: center;
+    font-weight: 600;
+    
+
+}
+
+/* this is for the button */
+
+.handleClick{
+    padding:2px;
+    position:absolute;
+    top:80%
+}
+
+
+.feedback-stats{
+    display:flex;
+    justify-content: space-between;
+    color:white !important;
+}
+
+@media screen and (min-width: 200px) and (max-width: 800px){
+    .card{
+        width:100%;
+    }
+}
