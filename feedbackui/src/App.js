@@ -5,6 +5,7 @@ import Header from './components/Header'
 import FeedBackItem from './components/FeedBackItem'
 import FeedBackList from "./components/FeedBackList"
 import FeedBackStats from "./components/FeedBackStats"
+import FeedBackForm from "./components/FeedBackForm"
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <div className ="row">
                    <div className = "col-xs-12 col-sm-12 col-md-12">
                               <Header text="Feedback UI" />
+                              <FeedBackForm/>
                               <FeedBackStats feedback={feedback}/>
                               <div><FeedBackList feedback={feedback}
                               handleDelete={deleteFeedback}/></div>
