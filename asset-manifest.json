@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/feedbackuiapplication/static/css/main.b0b7a9a8.css",
+    "main.js": "/feedbackuiapplication/static/js/main.10d16f20.js",
+    "static/js/787.1f32ea5a.chunk.js": "/feedbackuiapplication/static/js/787.1f32ea5a.chunk.js",
+    "index.html": "/feedbackuiapplication/index.html",
+    "main.b0b7a9a8.css.map": "/feedbackuiapplication/static/css/main.b0b7a9a8.css.map",
+    "main.10d16f20.js.map": "/feedbackuiapplication/static/js/main.10d16f20.js.map",
+    "787.1f32ea5a.chunk.js.map": "/feedbackuiapplication/static/js/787.1f32ea5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0b7a9a8.css",
+    "static/js/main.10d16f20.js"
+  ]
+}
