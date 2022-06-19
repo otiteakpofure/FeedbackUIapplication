@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;400&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;400&family=Dancing+Script&display=swap');
 
 
 *{
@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color:#354259 !important;
+    background-color:black !important;
     font-family: 'Anek Malayalam', sans-serif;
 }
 
@@ -87,9 +87,41 @@ body{
     color:white !important;
     margin-bottom: 15px;
 }
+/* .input-group{
+    width:50%;
+} */
+
+input[type="text"]{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    text-decoration: solid;
+    margin-top: 15px;
+    border: 1px solid black !important;
+}
+
+/**
+*! this is for the shape of the button
+**/
+
+.btn{
+    border-radius: 10px !important;
+    margin-top: 20px !important;
+    font-family:'Dancing Script', cursive !important;
+}
+
 
 @media screen and (min-width: 200px) and (max-width: 800px){
     .card{
+        width:100%;
+    }
+    body{
+        font-weight: 800 !important;
+        /* font-size: 1.5rem !important; */
+    }
+
+    input[type="text"]{
         width:100%;
     }
 }
